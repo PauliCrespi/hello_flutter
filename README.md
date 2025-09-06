@@ -1,16 +1,25 @@
-# hello_flutter
+# 📱 Flutter Project – Task Manager App
 
-A new Flutter project.
+This project was developed as part of my training in **Software Development (Holberton School Uruguay)** and my practice as a **Computer Engineering student**.  
+The main goal was to gain hands-on experience building a **mobile application with Flutter and Dart**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Description
 
-A few resources to get you started if this is your first Flutter project:
+The app is a **Task Manager** that allows users to:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ Create, update and delete tasks  
+- ✅ Mark tasks as completed  
+- ✅ Store data locally (persistence)  
+- ✅ Clean, responsive UI with Flutter widgets  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Technologies Used
+
+- [Flutter](https://flutter.dev/) – UI framework  
+- [Dart](https://dart.dev/) – Programming language  
+- [Git](https://git-scm.com/) – Version control  
+
+---
