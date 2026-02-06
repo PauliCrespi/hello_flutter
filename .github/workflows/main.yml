@@ -1,0 +1,21 @@
+name: Check PR title includes "add"
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  check-pr-title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR title
+        run: |
+          PR_TITLE="${{ github.event.pull_request.title }}"
+          echo "PR title: $PR_TITLE"
+
+          if [[ "$PR_TITLE" != *"add"* ]]; then
+            echo "❌ El título de la PR debe contener la palabra 'add'"
+            exit 1
+          fi
+
+          echo "✅ El título de la PR contiene 'add'"
